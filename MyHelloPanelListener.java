@@ -11,7 +11,7 @@ public class MyHelloPanelListener extends JPanel implements MouseListener, KeyLi
     JLabel ml;
     final int move_fixel=10; //이동 픽셀 고정
     public MyHelloPanelListener(){
-        ml=new JLabel("Hello");
+        ml=new JLabel("HELLO");
         this.add(ml);
     }
     public void mousePressed(MouseEvent e){}
