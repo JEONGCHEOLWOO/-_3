@@ -15,9 +15,9 @@ public class MyHelloFrame extends JFrame
        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        
        mp = new MyHelloPanelListener();
-       this.add(mp);
-       mp.addKeyListener(mp);
-       mp.addMouseListener(mp);
+       this.add(mp); // Panel 추가
+       mp.addKeyListener(mp); // KeyListener 추가
+       mp.addMouseListener(mp); // MouseListener 추가
        
        this.setSize(400,300);
        this.setVisible(true);
