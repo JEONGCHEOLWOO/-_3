@@ -1,6 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 /**
  * MyHelloFrame 클래스는 JFrame을 상소받아 GUI 컴포넌트와 리스너를 
  * 추가받는 클래스입니다.
