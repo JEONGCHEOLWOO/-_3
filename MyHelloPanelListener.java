@@ -24,9 +24,7 @@ public class MyHelloPanelListener extends JPanel implements MouseListener, KeyLi
     public void mouseReleased(MouseEvent e){}
     public void mouseEntered(MouseEvent e){}
     public void mouseExited(MouseEvent e){}
-    public void keyPressed(KeyEvent e){}
-    public void keyReleased(KeyEvent e){}
-    public void keyTyped(KeyEvent e){//키 입력을 받았을 때 키의 종류에 따라 작동
+    public void keyPressed(KeyEvent e){//키가 눌러졌을 때 작동
         if(e.getKeyCode()==KeyEvent.VK_RIGHT){//오른쪽 방향키 입력시
             int x=ml.getX()+move_fixel;
             int y=ml.getY();
@@ -45,4 +43,6 @@ public class MyHelloPanelListener extends JPanel implements MouseListener, KeyLi
             ml.setLocation(x,y);
         }
     }
+    public void keyReleased(KeyEvent e){}
+    public void keyTyped(KeyEvent e){}
 }
