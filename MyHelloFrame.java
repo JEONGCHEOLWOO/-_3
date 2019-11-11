@@ -9,7 +9,17 @@ import java.awt.event.*;
  */
 public class MyHelloFrame extends JFrame
 {
+   public MyHelloPanelListener mp;
    public MyHelloFrame(){
-       setTitle("실습_3(2018315034 정철우, 2018243087 정찬호");
+       this.setTitle("실습_3(2018315034 정철우, 2018243087 정찬호");
+       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       
+       mp = new MyHelloPanelListener();
+       this.add(mp);
+       mp.addKeyListener(mp);
+       mp.addMouseListener(mp);
+       
+       this.setSize(400,300);
+       this.setVisible(true);
    }
 }
