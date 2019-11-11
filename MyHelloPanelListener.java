@@ -1,7 +1,7 @@
 import java.awt.event.*;
 import javax.swing.*;
 /**
- * 여기에 MyHelloPanelListener 클래스 설명을 작성하십시오.
+ * MyHelloPanelListener 클래스는 패널이자 리스너 입니다.
  * 
  * @author (2018315034 정철우, 2018243087 정찬호) 
  * @version (2019/11/11)
